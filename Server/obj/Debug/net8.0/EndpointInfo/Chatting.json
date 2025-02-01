@@ -1,0 +1,22 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Chatting",
+    "version": "1.0"
+  },
+  "paths": {
+    "/ws": {
+      "get": {
+        "tags": [
+          "WebSocket"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
